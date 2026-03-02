@@ -42,18 +42,17 @@ export const brandSettings = {
         paragraphSpacing: "2"
     },
     palette: [ // these will load automatically into your page into the color section
-        { name: "Cooking Red", hex: "#E33D26" },
-        { name: "Black 1", hex: "#222222" },
-        { name: "White", hex: "#ffffff" },
-        { name: "Black 2 (Rich)", hex: "#1B1B1B" },
-        { name: "Smoke Grey", hex: "#767676" },
-        { name: "Cool Grey 1", hex: "#B3B3B3" },
-        { name: "Cool Grey 2", hex: "#D8D8D8" },
-        { name: "Warm Grey 1", hex: "#DEDDD5" },
-        { name: "Warm Grey 2", hex: "#F2F3EF" },
-        { name: "Warm Grey 3", hex: "#f8f9fa" },
-        { name: "Green", hex: "#60BF76" },
-        { name: "Red", hex: "#FF0000" },
+        { name: "Cooking Red (Primary)", hex: "#E33D26" },
+        { name: "Black 1 (Primary)", hex: "#222222" },
+        { name: "White (Primary)", hex: "#ffffff" },
+        { name: "Smoke Grey (Secondary)", hex: "#767676" },
+        { name: "Cool Grey 1 (Secondary)", hex: "#B3B3B3" },
+        { name: "Cool Grey 2 (Secondary)", hex: "#D8D8D8" },
+        { name: "Warm Grey 1 (Secondary)", hex: "#DEDDD5" },
+        { name: "Warm Grey 2 (Secondary)", hex: "#F2F3EF" },
+        { name: "Warm Grey 3 (Secondary)", hex: "#f8f9fa" },
+        { name: "Green (Sucess States)", hex: "#60BF76" },
+        { name: "Red (Error States)", hex: "#FF0000" },
 
 
     ]
