@@ -5,28 +5,28 @@ export const brandSettings = {
         variations: [ // you might have wordmarks / different color variants than what is listed here, that's fine just adjust it
             { 
                 name: "Primary - Light Background", 
-                src: "/Assets/fulllogo.png", // Add image path
+                src: "/Assets/lightlogo.png", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 description: "Use this version on white or light backgrounds."
             },
             { 
                 name: "Primary - Dark Background", 
-                src: "", // Add image path
+                src: "/Assets/white.png", // Add image path
                 bg: "#333333", 
                 darkText: false,
                 description: "Use this version on dark or brand-colored backgrounds."
             },
             { 
                 name: "Monochrome - Black", 
-                src: "", // Add image path
+                src: "/Assets/black.png", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 description: "For black and white print or single-color applications."
             },
             { 
                 name: "Monochrome - White", 
-                src: "", // Add image path
+                src: "/Assets/white.png", // Add image path
                 bg: "#000000", 
                 darkText: false,
                 description: "For dark backgrounds where color is not permitted."
