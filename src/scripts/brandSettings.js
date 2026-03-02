@@ -42,12 +42,19 @@ export const brandSettings = {
         paragraphSpacing: "2"
     },
     palette: [ // these will load automatically into your page into the color section
+        { name: "Cooking Red", hex: "#E33D26" },
+        { name: "Black 1", hex: "#222222" },
         { name: "White", hex: "#ffffff" },
-        { name: "Black", hex: "#000000" },
-        { name: "Primary Blue", hex: "#0056b3" },
-        { name: "Secondary Teal", hex: "#17a2b8" },
-        { name: "Accent Yellow", hex: "#ffc107" },
-        { name: "Dark Gray", hex: "#343a40" },
-        { name: "Light Gray", hex: "#f8f9fa" }
+        { name: "Black 2 (Rich)", hex: "#1B1B1B" },
+        { name: "Smoke Grey", hex: "#767676" },
+        { name: "Cool Grey 1", hex: "#B3B3B3" },
+        { name: "Cool Grey 2", hex: "#D8D8D8" },
+        { name: "Warm Grey 1", hex: "#DEDDD5" },
+        { name: "Warm Grey 2", hex: "#F2F3EF" },
+        { name: "Warm Grey 3", hex: "#f8f9fa" },
+        { name: "Green", hex: "#60BF76" },
+        { name: "Red", hex: "#FF0000" },
+
+
     ]
 };
