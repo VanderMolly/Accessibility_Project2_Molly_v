@@ -1,11 +1,11 @@
 export const brandSettings = {
     logo: {
-        src: "", // Add logo image URL here (e.g., "/assets/logo.png")
-        alt: "[Brand Name]",
+        src: "/Assets/logo.jpg", // Add logo image URL here (e.g., "/assets/logo.png")
+        alt: "New York Times Cooking",
         variations: [ // you might have wordmarks / different color variants than what is listed here, that's fine just adjust it
             { 
                 name: "Primary - Light Background", 
-                src: "", // Add image path
+                src: "/Assets/fulllogo.png", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 description: "Use this version on white or light backgrounds."
