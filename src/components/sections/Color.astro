@@ -5,19 +5,15 @@ import { brandSettings } from '../../scripts/brandSettings.js';
 ---
 <section id="color">
                 <h2>Colors</h2>
-                
-                <InstructionNote>
-                    Define your brand's primary and extended color palettes. Research and document the required WCAG contrast ratios for text and non-text UI elements, then verify your palette meets these standards.
-                </InstructionNote>
 
                 <h3>Brand Palette</h3>
                 <ColorSwatch />
 
                 <h3>Color Usage Policy</h3>
-                <p><strong>Use of Color:</strong> [Define your brand's policy on relying solely on color to convey meaning, state, or information (e.g., in error states or links). Assume your user is marketing and design team membrs who might not have any prior accessibility knowledge.]</p>
+                <p><strong>Use of Color:</strong> Although we have a strong color pallete and colors for success and error states, meaning must not be conveyed with color alone. For example, for error states make sure to label in text what is wrong. You can outline in color and also provide a in-text description of the error. For example, "please enter your email".</p>
 
                 <h3>Text Contrast Playground</h3>
-                <p>[Define the minimum contrast ratio required for normal text vs. large text according to WCAG 2.1 AA, explain to users what the tool below helps them do and how they can use it]</p>
+                <p>The WCAG 2.1AA guidelines list that for normal text a minimum contrast ratio of 4.5:1 is required. For large text (larger than 18pt), a 3:1 ratio is required. New York Times Cooking has 3 primary colors, white and black for text and various secondary colors. Use the contrast checker below to make sure any pairings meet these contrast minimums.</p>
                 
                 <div id="contrast-calculator" class="contrast-calculator" data-palette={JSON.stringify(brandSettings.palette)}>
                     <div class="calculator-controls">
