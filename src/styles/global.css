@@ -1,6 +1,18 @@
 /* * WIREFRAME BASE STYLES 
     * Students: Replace these styles with your brand's specific CSS.
     */
+
+      @import url("https://use.typekit.net/dzi7mtl.css");
+      @font-face {
+        font-family: KarnakPro-Medium;
+        src: url('/Assets/☞KarnakPro-Medium\ 400.otf');
+      }
+       @font-face {
+        font-family: Cheltenham;
+        src: url('/Assets/Cheltenham.ttf');
+      }
+
+       
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -75,7 +87,7 @@
 }
 
 body {
-    font-family: var(--font-primary, sans-serif);
+    font-family: 'Franklin Gothic Medium', sans-serif;
     line-height: var(--line-height-base, 1.6);
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -83,6 +95,9 @@ body {
     padding: 0;
 }
 
+h1,h2,h3 {
+    font-family: 'KarnakPro-Medium', serif;
+}
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
