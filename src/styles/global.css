@@ -5,11 +5,11 @@
       @import url("https://use.typekit.net/dzi7mtl.css");
       @font-face {
         font-family: KarnakPro-Medium;
-        src: url('/assets/KarnakPro-Medium\ 400.otf');
+        src: url('/public/KarnakPro-Medium\ 400.otf');
       }
        @font-face {
         font-family: Cheltenham;
-        src: url('/assets/Cheltenham.ttf');
+        src: url('/public/Cheltenham.ttf');
       }
 
        
@@ -625,7 +625,7 @@ th {
         color: #000000 !important;
     }
 
-    /* Preserve Brand assets */
+    /* Preserve Brand public */
     .swatch-color,
     .logo-preview {
         -webkit-print-color-adjust: exact !important;

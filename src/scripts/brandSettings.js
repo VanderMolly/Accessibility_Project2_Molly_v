@@ -1,32 +1,32 @@
 export const brandSettings = {
     logo: {
-        src: "/assets/logo.jpg", // Add logo image URL here (e.g., "/assets/logo.png")
+        src: "/public/logo.jpg", // Add logo image URL here (e.g., "/public/logo.png")
         alt: "New York Times Cooking",
         variations: [ // you might have wordmarks / different color variants than what is listed here, that's fine just adjust it
             { 
                 name: "Primary - Light Background", 
-                src: "/assets/lightlogo.png", // Add image path
+                src: "/public/lightlogo.png", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 description: "Use this version on white or light backgrounds."
             },
             { 
                 name: "Primary - Dark Background", 
-                src: "/assets/white.png", // Add image path
+                src: "/public/white.png", // Add image path
                 bg: "#333333", 
                 darkText: false,
                 description: "Use this version on dark or brand-colored backgrounds."
             },
             { 
                 name: "Monochrome - Black", 
-                src: "/assets/black.png", // Add image path
+                src: "/public/black.png", // Add image path
                 bg: "#ffffff", 
                 darkText: true,
                 description: "For black and white print or single-color applications."
             },
             { 
                 name: "Monochrome - White", 
-                src: "/assets/white.png", // Add image path
+                src: "/public/white.png", // Add image path
                 bg: "#000000", 
                 darkText: false,
                 description: "For dark backgrounds where color is not permitted."

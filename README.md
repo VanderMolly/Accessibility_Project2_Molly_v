@@ -23,7 +23,7 @@ A lightweight, accessible-first brand guideline template built with [Astro](http
 ### 1. Brand Configuration (`src/scripts/brandSettings.js`)
 This is the control center for the template. Update this file to populate your brand's specific data across the site.
 
-- **Logo & Favicon**: Set the paths to your assets.
+- **Logo & Favicon**: Set the paths to your public.
 - **Typography**: Define your primary/secondary fonts and readability metrics.
 - **Palette**: Add your brand colors. These automatically populate the **Contrast Calculator**.
 
