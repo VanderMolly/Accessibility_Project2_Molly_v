@@ -5,11 +5,11 @@
       @import url("https://use.typekit.net/dzi7mtl.css");
       @font-face {
         font-family: KarnakPro-Medium;
-        src: url('/public/KarnakPro-Medium\ 400.otf');
+        src: url('/KarnakPro-Medium 400.otf');
       }
        @font-face {
         font-family: Cheltenham;
-        src: url('/public/Cheltenham.ttf');
+        src: url('/Cheltenham.ttf');
       }
 
        
