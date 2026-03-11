@@ -13,6 +13,9 @@ const paletteVars = brandSettings.palette.map(color => {
     const slug = color.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     return `--color-${slug}: ${color.hex};`;
 }).join('\n\t\t\t');
+
+// Determine base path for GitHub Pages
+const baseHref = '/Accessibility_Project2_Molly_v/';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -20,6 +23,7 @@ const paletteVars = brandSettings.palette.map(color => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
+    <base href={baseHref}>
     <style is:global set:html={`
         :root {
             ${paletteVars}
