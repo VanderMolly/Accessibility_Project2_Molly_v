@@ -30,7 +30,7 @@ This is the control center for the template. Update this file to populate your b
 ```javascript
 // src/scripts/brandSettings.js
 export const brandSettings = {
-    logo: { src: "/logo.png", alt: "Brand Logo" },
+    logo: { src: "logo.png", alt: "Brand Logo" },
     palette: [
         { name: "Primary Blue", hex: "#0056b3" },
         // ...
