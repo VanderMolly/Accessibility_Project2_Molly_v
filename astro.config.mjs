@@ -16,7 +16,8 @@ const repoOwner = isGitHubAction
 
 export default defineConfig({
   // If in production, use the GitHub Pages URL. If local, use localhost.
-  site: isGitHubAction ? `https://${repoOwner}.github.io` : 'http://localhost:4321',
+  site: isGitHubAction ? `https://${repoOwner}.github.io/${repoName}` : undefined,
+  base: '/',
   
   // If in production, set the base to the repo name (e.g., /brand-guide-template)
   base: isGitHubAction ? `/${repoName}` : '/',
