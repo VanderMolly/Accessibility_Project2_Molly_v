@@ -499,6 +499,14 @@ th {
     font-size: 1.5rem;
 }
 
+.default-state-example {
+    color: #111111;
+}
+
+[data-theme="dark"] .default-state-example {
+    color: #111111;
+}
+
 .results-ratio {
     font-size: 1.25rem;
     margin-bottom: 1rem;
