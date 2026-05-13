@@ -61,6 +61,8 @@
         --link-hover-bg: #1a2733;
         --link-active-bg: #1c3146;
         --link-active-color: #74c0fc;
+        --status-fail: #ff9494;
+        --status-pass: #26c97d;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -501,12 +503,12 @@ th {
 }
 
 .status-pass {
-    color: #198754; /* Success Green */
+    color: #1e5f11; /* Success Green */
     font-weight: bold;
 }
 
 .status-fail {
-    color: #dc3545; /* Danger Red */
+    color: #a80000; /* Danger Red */
     font-weight: bold;
 }
 
