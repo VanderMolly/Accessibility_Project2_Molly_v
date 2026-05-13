@@ -37,6 +37,8 @@
     --link-hover-bg: #f0f7ff;
     --link-active-bg: #e6f2ff;
     --link-active-color: #004494;
+    --status-pass: #1e5f11;
+    --status-fail: #a80000;
 
     --sidebar-width: 200px;
 }
@@ -503,12 +505,12 @@ th {
 }
 
 .status-pass {
-    color: #1e5f11; /* Success Green */
+    color: var(--status-pass, #1e5f11);
     font-weight: bold;
 }
 
 .status-fail {
-    color: #a80000; /* Danger Red */
+    color: var(--status-fail, #a80000);
     font-weight: bold;
 }
 
